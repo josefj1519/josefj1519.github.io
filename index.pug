@@ -1,0 +1,227 @@
+doctype html
+html(lang='en')
+
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css")
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Josef Jankowski
+                span.d-none.d-lg-block
+                    //img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='Picture of Josef Jankowski')
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Josef 
+                        span.text-primary Jankowski
+                    .subheading.mb-5
+                        | (714) 913-3717 · 
+                        a(href='mailto:name@email.com') jankowski.josef99@gmail.com
+                    p.lead.mb-5
+                        | I'm a senior at California State University Fullerton, and I'm studying copmuter science.  I enjoy working as a backend engineering and learning how to deal with the scale of handling millions of users.  
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/josef-jankowski-368a88158/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/josefj1519')
+                            i.fab.fa-github
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 STEP Intern
+                            .subheading.mb-3 Google, Virtual Internship
+                            li Created a website with a team of two other interns that aggregates promo-codes from YouTube video descriptions.
+                            li Integrated with the YouTube Data API v3 in Java  to scrape YouTube channel and video information.
+                            li Implemented project with RESTful concepts in mind.
+                            li Earned proficiency in writing JUnit unit and integration tests.  
+                            li Worked on front-end form input using Bootstrap, JQuery, HTML, CSS, and Javascript.
+                            li Wrote a project requirement doc and multiple design docs for additional sprints.
+                            li Utilized Google App Engine and Datastore during training.
+                        .flex-shrink-0
+                            span.text-primary May 2020 - August 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Engineering Practicum Intern
+                            .subheading.mb-3 Google, Mountain View, CA
+                            li Created a system to redistribute bugs using C++ and protocol buffers to assign software engineers flaky tests to fix.  
+                            li Utilized a variety of internal Google infrastructures to automate bug assignment. 
+                            li Launched and configured the software to run periodically so bugs can quickly be assigned to software engineers. 
+                            li Wrote design docs and documentation.
+                            li Attended Go and Haskell courses taught by Google Software Engineers.
+                        .flex-shrink-0
+                            span.text-primary May 2019 - August 2019
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 University of California State University, Fullerton
+                            .subheading.mb-3 Bachelor of Science
+                            div Computer Science
+                            p GPA: 3.78
+                        .flex-shrink-0
+                            span.text-primary August 2018 - December 2021
+                       
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.devicon-c-plain
+                        li.list-inline-item
+                            i.devicon-cplusplus-plain
+                        li.list-inline-item
+                            i.devicon-csharp-plain
+                        li.list-inline-item
+                            i.devicon-java-plain
+                        li.list-inline-item
+                            i.devicon-go-plain
+                        li.list-inline-item
+                             i.devicon-python-plain
+                        li.list-inline-item
+                             i.devicon-googlecloud-plain
+                        li.list-inline-item
+                            i.devicon-angularjs-plain
+                        li.list-inline-item
+                            i.devicon-nodejs-plain
+                        li.list-inline-item
+                             i.devicon-npm-original-wordmark
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Scalable & Reliable Back End 
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Algorithims & Data Structures
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Expansive Unit & Integration Tests
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development & Scrum
+
+            hr.m-0
+
+
+            section#projects.resume-section
+                .resume-section-content
+                    h2.mb-5 Projects
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Dev Farm
+                            iframe(src='assets/img/devfarm_clip.gif', width="480", height="270", frameBorder="0", allowFullScreen alt='Gif of Dev Farm gameplay.')
+                            p 
+                                |   Dev Farm is a game created in Unity with a team of four other people.  I used C# to add sound scripts to the game.  
+                                |   Also wrote a C# script that gets time from an internal system stopwatch. This is to make it less dependent on the games framerate. 
+                            a(href="https://github.com/josefj1519/DevFarm") https://github.com/josefj1519/DevFarm
+                        .flex-shrink-0
+                            span.text-primary May 2021
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 PromoTube
+                            img(src='assets/img/promo-tube.jpg', width="480", height="170",   frameBorder="0", alt='Picture of PromoTube website.')
+                            p 
+                                |   Created a website with a team of two other interns that aggregates promo-codes from YouTube video descriptions.  
+                                |   I worked on integrating with the YouTube Data API v3 in Java  to scrape YouTube channel and video information. 
+                                |   And I also worked on the front end form input using Bootstrap, JQuery, HTML, CSS, and Javascript.
+                            a(href="https://www.promo-tube.com/") promo-tube.com
+                        .flex-shrink-0
+                            span.text-primary August 2020
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | I enjoy hiking, running, and wokring out. I live in California, so I enjoy going to the beach from time to time.  When I get the oppurtunity, I try to go white water rafting.
+                    p.mb-0
+                        | I also loving reading, watching movies, and playing video games with friends.  
+                    .subheading.mb-3
+                        | Some of my favorite movies include: 
+                    p
+                            li  Memento 
+                            li  The Good, The Bad, and The Ugly 
+                            li  The Dark Knight
+                            li  Dawn of the Planet of the Apes 
+                            li  The Truman Show
+                    .subheading.mb-3
+                        | Books: 
+                    p
+                            li  Ubik
+                            li  Dune
+                            li  Lord of the Rings Trilogy
+
+            hr.m-0
+
+        // Bootstrap core JS
+        script(src='https://code.jquery.com/jquery-3.5.1.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
